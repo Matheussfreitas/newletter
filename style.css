@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9FAFB;
+}
+
+.container {
+    width: 800px;
+    font-family: "Poppins";
+    margin: auto;
+}
+
+#Logotipo {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio {
+    margin: 50px;
+    text-align: center;
+}
+
+#titulo {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+#conteudo {
+    font-weight: 400;
+    font-size: 20px;
+
+    color: #6C727F;
+}
+
+.box-input {
+    width: 550px;
+
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+
+    border: 2px solid;
+    border-radius: 10px;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    margin: auto;
+}
+
+.box-input input {
+    width: 500px;
+    height: 50px;
+    
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+
+    color: #6C727F;
+    background-color: #F9FAFB;
+
+    border: 1px solid;
+    border-color: #E5E7EB;
+    border-radius: 8px;
+}
+
+.box-input button {
+    width: 500px;
+    height: 50px;
+
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 16px;
+
+    color: #FFFFFF;
+    background-color: #3662E3;
+
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #3662E3;
+}
+
+.box-input p {
+    color: #6C727F;
+    font-weight: 400;
+    font-size: 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
