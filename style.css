@@ -92,6 +92,7 @@ body {
 .box-input form #button:hover {
     background: #567bec;
     border-color: #567bec;
+    cursor: pointer;
 }
 
 .box-input p {
