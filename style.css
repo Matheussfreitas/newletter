@@ -111,6 +111,10 @@ body {
     justify-content: center;
 }
 
+.form-content.ok #text {
+    border-color: #3662E3;
+}
+
 .form-content.error #text {
     border-color: #ff3b25;
 }
